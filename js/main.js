@@ -13,6 +13,7 @@ function submit() {
   month = parseInt(document.getElementById("month").value);
   dayOfMonth = parseInt(document.getElementById("date").value);
 
+
 //   if (century === "") {
 //     alert("Input Correct century");
 //     return false;
