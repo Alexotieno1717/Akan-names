@@ -11,14 +11,15 @@
     <div class="container">
       <form action="" class="d-flex flex-column">
         <h1>Akan Names</h1>
-        <input type="number" id="century" placeholder="Century" />
-        <input type="number" id="year" placeholder="Year Of Birth" />
-        <input type="number" id="month" placeholder="Month of Birth" />
-        <input type="number" id="date" placeholder="Date of Birth" />
-        <input type="radio" id="male" />Male <input type="radio" id="female" />Female
-        <input type="submit" id="submit" onclick="submit()" value="Submit"> 
+        <input class="input" type="date" id="yearOfBirth" />
+        <input type="radio" id="female" name="radAnswer" value="female" />
+        <span id="genders">Female</span>
+        <br />
+        <input type="radio" id="male" name="radAnswer" value="male" />
+        <span id="genders">Male</span>
+        <input type="submit" id="submit" onclick="akanNames()" value="Submit" />
       </form>
-      <div class="result" id="result"></div>
+      <div class="result text-danger text-center" id="result"></div>
     </div>
     <script src="js/main.js"></script>
   </body>

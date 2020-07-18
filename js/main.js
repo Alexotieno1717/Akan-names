@@ -1,58 +1,41 @@
 
 
-// var century;
-// var year;
-// var month;
-// var dayOfMonth;
 
-// var daysOfWeek = [
-//   "Sunday",
-//   "Monday",
-//   "Tuesday",
-//   "Wednesday",
-//   "Thursday",
-//   "Friday",
-//   "Saturday",
-// ];
-// var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-// var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-// function submit() {
-//   event.preventDefault();
-//   century = parseInt(document.getElementById("century").value);
-//   year = parseInt(document.getElementById("year").value);
-//   month = parseInt(document.getElementById("month").value);
-//   dayOfMonth = parseInt(document.getElementById("date").value);
-//   error = document.getElementById("result");
+// function akanNames(){
+//     event.preventDefault();
+//     var Input = document.getElementById('yearOfBirth').value;
+//     var day = new Date (Input);
+//     var CC, YY, MM;
 
-//   //Validate
-//   if (century === "" || century < 1 || century > 21) {
-//     alert("Input Correct century");
-//     return false;
-//   } else if (year === "" || year < 1 || year > 2030) {
-//     alert("Input Correct century");
-//     return false;
-//   } else if (month === "" || month < 1 || month > 12) {
-//     alert("Input Correct century");
-//   } else if (dayOfMonth === "" || dayOfMonth < 1 || dayOfMonth > 31) {
-//     alert("Input Correct century");
-//   } else {
-//     return false;
-//   }
+//     if (day.valueOf()){
+//         CC = day.getDay();
+//         MM = day.getMonth();
+//         YY = day.getFullYear();
+//     }
+//     else{
+//         alert("Invalide date"); //Validate date
+//     }
+
+
+//     var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+//     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+//     var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"];
+//     // var gender = document.getElementById('genders').value;
+//     var dayCalculate = parseInt(((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10))) % 7;
+
+
+// var gender = document.getElementById('genders').value;
+// console.log(dayCalculate);
+// if (document.getElementById('male').checked) {
+//   gender = document.getElementById('male').value;
+//   alert(" Since you were born on " + daysOfWeek[dayCalculate] + ',' + " your name is " + maleNames[dayCalculate]);
+//   document.getElementById('result').innerHTML = maleNames[dayCalculate];
+
 // }
 
-// // function checkResult() {
-// //     event.preventDefault();
-// //   let firstName = document.getElementById("firstName").value;
-// //   let lastName = document.getElementById("lastName").value;
-// //   let output = document.getElementById("result");
-// //   let error = document.getElementById("result");
+// }
 
-// //   if (firstName.length >=1 && lastName.length>=1){
-// //     let fullName = `Your full name is: ${firstName} ${lastName}`;
-// //     output.innerHTML = fullName;
-// //   }else{
-// //       error.innerHTML="Error: input fill!"
-// //   }
 
-// // }
+
+
