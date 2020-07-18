@@ -1,4 +1,17 @@
 
+    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"];
+
+function submitFullNames(){
+    var day = parseInt(document.getElementById('day').value);
+    var month = parseInt(document.getElementById('month').value);
+    var year = document.getElementById('year').value;
+    var cc = parseInt(year.slice(0, 2));
+    var yy = parseInt(year.slice(2, 4));
+
+    alert(year);
+}
 
 
 
