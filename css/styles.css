@@ -24,3 +24,17 @@ html, body{
 .about{
     font-family: 'Merienda One', cursive;
 }
+
+/* ==============================================
+MEDIA QUERY
+=============================================================*/
+@media(max-width: 580px) {
+    #cont-background{
+        background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../images/tra-2.jpg) no-repeat 50% 50%;
+        height: auto;
+        background-size: cover;
+    }
+    .flag img{
+        display: none;
+    }
+}
