@@ -19,3 +19,7 @@ html, body{
     color: orange;
     font-style: italic;
 }
+.card-header,
+.about{
+    font-family: 'Merienda One', cursive;
+}
