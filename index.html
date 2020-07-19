@@ -45,18 +45,29 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <form action="">
-                        <div class="form-group">
-                            <label class="text-white" for="year">Date:</label>
-                            <input type="date" name="date" class="form-control" placeholder="Enter Year of Date" id="date" required>
+                    <div class="card card-body-custom">
+                        <div class="card-header text-center">
+                            <h2>User Details</h2>
                         </div>
-                        <select class="form-control mb-2" id="genders">
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                        </select>
-                        <button type="submit" class="btn btn-primary" onclick="submitFullNames()">Submit</button>
-                        <div class="text-center text-danger" id="result"></div>
-                    </form>
+                        <div class="card-body card-body-custom">
+                            <form action="">
+                                <div class="form-group">
+                                    <label class="text-dark" for="year">Date:</label>
+                                    <input type="date" name="date" class="form-control" placeholder="Enter Year of Date" id="date" required>
+                                </div>
+                                <label for="gender">Gender:</label>
+                                <select class="form-control mb-2" id="genders">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                                <button type="submit" class="btn btn-primary" onclick="submitFullNames()">Submit</button>
+                            </form>
+                        </div>
+                        <div class="card-footer card-body-custom">
+                            <p>Your Akan Name display here : <div class="text-danger" id="result"></div></p>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
