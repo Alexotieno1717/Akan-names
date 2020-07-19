@@ -18,7 +18,7 @@ function submitFullNames(){
         alert(" Since you were born on " + daysOfWeek[date.getDay()] + ',' + " your name is " + femaleNames[date.getDay()]);
         document.getElementById('result').innerHTML = femaleNames[date.getDay()];
     }
-    else {
+    else{
         alert("Be serious!!!");''
     }
 
