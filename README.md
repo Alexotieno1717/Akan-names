@@ -9,7 +9,7 @@ This project is a web application that takes a user's birthday and calculates th
 
 #### Screenshot
 
-<img src="images/screenshot.png">
+<img src="images/Screenshot.png" alt="Screenshot">
 
 #### Live Demo
 
