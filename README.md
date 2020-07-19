@@ -1,31 +1,31 @@
-### Akan Name Generator
+## Akan Name Generator
 
-#### Author
+### Author
 * Alex Otieno
 
-#### Description
+### Description
 
 This project is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name is displayed
 
-#### Screenshot
+### Screenshot
 
 <img src="images/Screenshot.png" alt="Screenshot">
 
-#### Live Demo
+### Live Demo
 
-#### Installation / Set up instruction
+### Installation / Set up instruction
 * git clone https://github.com/Alexotieno1717/Akan-names.git
 * cd Akan-names
 * code . [ Open In text editor]
 
-#### Technologies Used
+### Technologies Used
 * HTML 5
 * CSS 3
 * Markdown
 * Bootstrap 4
 * Javascript
 
-#### BDD
+### BDD
 
 
 ##### Input
@@ -41,9 +41,13 @@ True value is output. Output example: You were born on Sunday and Your Akan name
 #### Known Bugs
 * Some output are not as accurate as expected.
 
-#### Contact Information
+### Contact Information
 If you have question or you want to contribute please contact me at alexotieno900@gmail.com
 
+### License
 
+MIT License:
+
+Copyright &copy; 2019 Alex Otieno
 
 
