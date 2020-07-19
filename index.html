@@ -13,7 +13,7 @@
           <div class="cont-header pt-3">
               <h2 class="text-white text-center">Welcome To <span class="kan"> Akan Names</span></h2>
           </div>
-        <div class="container pt-5">
+        <div class="container pt-3">
             <div class="row">
                 <div class="col-md-6">
                     <div class="about text-center text-white">
@@ -45,18 +45,19 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card card-body-custom">
-                        <div class="card-header text-center">
+                    <div class="card">
+                        <div class="card-header card-body-custom text-center">
                             <h2>User Details</h2>
                         </div>
                         <div class="card-body card-body-custom">
                             <form action="">
                                 <div class="form-group">
-                                    <label class="text-dark" for="year">Date:</label>
-                                    <input type="date" name="date" class="form-control" placeholder="Enter Year of Date" id="date" required>
+                                    <label class="text-white" for="year">Date:</label>
+                                    <input type="date" name="date" class="form-control date-custom" placeholder="Enter Year of Date" id="date" required>
                                 </div>
-                                <label for="gender">Gender:</label>
-                                <select class="form-control mb-2" id="genders">
+                                <label class="text-white" for="gender">Gender:</label>
+                                <select class="form-control mb-2 select-custom" id="genders">
+                                    <option class="option-custom" value="other">Choose gender</option>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
                                 </select>
@@ -65,7 +66,6 @@
                         </div>
                         <div class="card-footer card-body-custom">
                             <p>Your Akan Name display here : <div class="text-danger" id="result"></div></p>
-                            
                         </div>
                     </div>
                 </div>
