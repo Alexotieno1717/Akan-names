@@ -19,7 +19,7 @@ function submitFullNames(){
         document.getElementById('result').innerHTML = femaleNames[date.getDay()];
     }
     else{
-        alert("Be serious!!!");''
+        alert("Error: Input your gender or correct date");''
     }
 
   
