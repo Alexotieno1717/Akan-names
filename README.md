@@ -13,6 +13,8 @@ This project is a web application that takes a user's birthday and calculates th
 
 ### Live Demo
 
+* https://alexotieno1717.github.io/Akan-names/
+
 ### Installation / Set up instruction
 * git clone https://github.com/Alexotieno1717/Akan-names.git
 * cd Akan-names
