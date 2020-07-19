@@ -8,20 +8,23 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container">
-        <form action="">
-            <div class="form-group">
-                <label for="year">Date:</label>
-                <input type="date" name="date" class="form-control" placeholder="Enter Year of Date" id="date" required>
-            </div>
-            <select class="form-control mb-2" id="genders">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-            <button type="submit" class="btn btn-primary" onclick="submitFullNames()">Submit</button>
-            <div class="text-center text-danger" id="result"></div>
-        </form>
-    </div>
+      <div class="container-fluid" id="cont-background">
+        <div class="container">
+            <form action="">
+                <div class="form-group">
+                    <label for="year">Date:</label>
+                    <input type="date" name="date" class="form-control" placeholder="Enter Year of Date" id="date" required>
+                </div>
+                <select class="form-control mb-2" id="genders">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <button type="submit" class="btn btn-primary" onclick="submitFullNames()">Submit</button>
+                <div class="text-center text-danger" id="result"></div>
+            </form>
+        </div>
+      </div>
+    
     <script src="js/main.js"></script>
   </body>
 </html>
