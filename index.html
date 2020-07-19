@@ -9,19 +9,52 @@
   </head>
   <body>
       <div class="container-fluid" id="cont-background">
+          <div class="cont-header">
+              <h2 class="text-center pt-2">Welcome To <span> Akan Names</span></h2>
+          </div>
         <div class="container">
-            <form action="">
-                <div class="form-group">
-                    <label for="year">Date:</label>
-                    <input type="date" name="date" class="form-control" placeholder="Enter Year of Date" id="date" required>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="images/download.png" class="w-50 pt-3" alt="Ghana Flag">
+                        </div>
+                        <div class="col-md-10">
+                            <p>Akan names are derived from Ghanian culture. Get your Akan name by filling the form above!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="images/download.png" class="w-50 pt-3" alt="Ghana Flag">
+                        </div>
+                        <div class="col-md-10">
+                            <p>Names are based on gender and the date you were born.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="images/download.png" class="w-50 pt-4" alt="Ghana Flag">
+                        </div>
+                        <div class="col-md-10">
+                            <p>Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+                        </div>
+                    </div>
                 </div>
-                <select class="form-control mb-2" id="genders">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-                <button type="submit" class="btn btn-primary" onclick="submitFullNames()">Submit</button>
-                <div class="text-center text-danger" id="result"></div>
-            </form>
+                <div class="col-md-6">
+                    <form action="">
+                        <div class="form-group">
+                            <label class="text-white" for="year">Date:</label>
+                            <input type="date" name="date" class="form-control" placeholder="Enter Year of Date" id="date" required>
+                        </div>
+                        <select class="form-control mb-2" id="genders">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <button type="submit" class="btn btn-primary" onclick="submitFullNames()">Submit</button>
+                        <div class="text-center text-danger" id="result"></div>
+                    </form>
+                </div>
+            </div>
         </div>
       </div>
     
